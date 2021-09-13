@@ -21,3 +21,21 @@ header{
 main{
     margin:20px 10px;
 }
+
+h1{
+    margin-bottom: 0;
+}
+#nameautor{
+    color: #2daee6;
+}
+
+#autor{
+    font-size: 15px;
+    margin-top: 5px;
+    color: rgb(106, 105, 105);
+}
+
+.small{
+    font-size: 12px;
+    color: rgb(106, 105, 105);
+}
