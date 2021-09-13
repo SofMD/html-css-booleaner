@@ -12,22 +12,19 @@ header{
     background-size: auto 200px;
     background-attachment: fixed;
 } 
-/*main*/
+
 #logo{
     width: 150px;
     height: auto;
     margin: 50px 10px 0;
 }
-
+/*main*/
 main{
     margin:20px 10px;
 }
 
 h1{
     margin-bottom: 0;
-}
-#nameautor{
-    color: #2daee6;
 }
 
 .subtitles{
@@ -36,15 +33,19 @@ h1{
     color: rgb(106, 105, 105);
 }
 
-.small{
-    font-size: 12px;
-    color: rgb(106, 105, 105);
+#nameautor{
+    color: #2daee6;
 }
 
 .imgprincipali{
     margin-top: 20px;
     height: 300px;
     width: auto;
+}
+
+.small{
+    font-size: 12px;
+    color: rgb(106, 105, 105);
 }
 
 .highlighted{
@@ -59,10 +60,11 @@ table, th, td {
     border-collapse: collapse;
 }
 
-thead{
+ thead{
     background-color: #20a9e5;
     color: white;
 }
+
 .trsize{
     width:20% ;
 }
@@ -76,10 +78,10 @@ thead{
     height: 200px;
     padding: 15px;
     margin-top: 10px;
-    background-image: url("../img/monitor.jpg");
     font-size: 25px;
     font-weight: bold;
     color: white; 
+    background-image: url("../img/monitor.jpg");  
 }
 
 .box2{
@@ -87,8 +89,8 @@ thead{
     height: 200px;
     padding: 15px;
     margin-top: 10px;
-    background-image: url("../img/graph.jpg");
     font-size: 25px;
     font-weight: bold;
-    color: white; 
+    color: white;
+    background-image: url("../img/graph.jpg");   
 }
